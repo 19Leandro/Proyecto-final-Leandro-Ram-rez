@@ -41,7 +41,7 @@
   }
   .btnhero-1,
   .btnhero-2 {
-    width: 120px;
+    width: 140px;
   }
 
   .card-title {
@@ -92,19 +92,22 @@
     padding: 15px;
   }
   #contacto {
-    width: 500px;
+    width: 350px;
   }
   .principal-img {
     display: none;
   }
   .datos-contacto {
-    gap: 50px;
+    gap: 25px;
   }
   .datos-contacto p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .contact-text,
   .contact-text2 {
-    width: 180px;
+    width: 140px;
+  }
+  .footer-img {
+    width: 200px;
   }
 }
