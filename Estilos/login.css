@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #7aaee1;
+}
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°NAVBAR°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #41cfae;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.navbar i {
+  display: none;
+  font-size: 36px;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: none;
+  transition: 0.25s ease;
+}
+ul:hover a {
+  color: red;
+}
+ul:hover a:hover {
+  color: white;
+  box-shadow: 0, 2px, 0, 0 blue;
+}
+
+.logo-nav {
+  width: 100px;
+  height: 60px;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°LOGIN°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  margin-top: 120px;
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.user-box {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.login-box a {
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 1s;
+  margin-top: 40px;
+}
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+@media (max-width: 575px) {
+  .navbar ul {
+    background-color: #41cfae;
+    width: 100%;
+    height: calc(100vh - 50px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  .navbar i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .nav_links {
+    display: flex;
+  }
+  .login-box {
+    width: 350px;
+  }
+}

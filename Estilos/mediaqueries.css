@@ -1,0 +1,110 @@
+@media (max-width: 575px) {
+  .navbar ul {
+    background-color: #41cfae;
+    width: 100%;
+    height: calc(100vh - 50px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  .navbar i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .nav_links {
+    display: flex;
+  }
+  #hero {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  .hero-card {
+    display: none;
+  }
+  .hero-btn a {
+    font-size: 14px;
+  }
+  .herotext {
+    align-items: center;
+    width: 300px;
+    text-align: justify;
+  }
+  .herotext h1 {
+    text-align: center;
+  }
+  .btnhero-1,
+  .btnhero-2 {
+    width: 120px;
+  }
+
+  .card-title {
+    text-align: center;
+  }
+  .card-1,
+  .card-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-text,
+  .card-text2,
+  .card-text3 {
+    text-align: justify;
+    padding: 15px;
+  }
+  .contenedor-tarjetas {
+    flex-direction: column;
+  }
+
+  #contacto {
+    width: 300px;
+  }
+  .principal-img {
+    display: none;
+  }
+  .datos-contacto {
+    gap: 5px;
+  }
+  .datos-contacto p {
+    font-size: 8px;
+  }
+  .contact-text,
+  .contact-text2 {
+    width: 130px;
+  }
+}
+
+@media (max-width: 900px) {
+  .card-text,
+  .card-text2,
+  .card-text3 {
+    text-align: justify;
+    padding: 15px;
+  }
+  #contacto {
+    width: 500px;
+  }
+  .principal-img {
+    display: none;
+  }
+  .datos-contacto {
+    gap: 50px;
+  }
+  .datos-contacto p {
+    font-size: 12px;
+  }
+  .contact-text,
+  .contact-text2 {
+    width: 180px;
+  }
+}

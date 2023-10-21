@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Estilos/registro.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <title>Juntos por los peluditos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img
+          class="logo-nav"
+          src="./imagenes/logo-navbar.webp"
+          alt="logo de la marca"
+        />
+        <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="nav_links">
+          <li>
+            <a class="nav-links" href="./index.html"><strong>INICIO</strong></a>
+          </li>
+          <li>
+            <a class="nav-links" href="#contacto"><strong>CONTACTO</strong></a>
+          </li>
+          <li>
+            <a class="nav-links" href="#Tarjetas"><strong>OBJETIVOS</strong></a>
+          </li>
+          <li>
+            <a class="nav-links" href="./login.html"><strong>LOGIN</strong></a>
+          </li>
+          <li>
+            <a class="nav-links" href="#"><strong>REGISTRO</strong></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="login-box">
+        <h2>Registro</h2>
+        <form>
+          <div class="user-box">
+            <label for="datos">Nombre y Apellido</label>
+            <input type="text" name="datos" />
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" name="correo" />
+
+            <label for="contraseña">Password</label>
+            <input type="password" name="contraseña" />
+            <div class="checkbox">
+              <label for="terminos">Acepto los terminos y condiciones.</label>
+              <input type="checkbox" name="" id="terminos" />
+            </div>
+          </div>
+          <a href="#"> SUBMIT </a>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
