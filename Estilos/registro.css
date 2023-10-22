@@ -12,7 +12,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #9519e7;
+  background-color: #b862f2;
   height: 50px;
   position: fixed;
   width: 100%;
@@ -127,7 +127,7 @@ main {
 }
 @media (max-width: 575px) {
   .navbar ul {
-    background-color: #41cfae;
+    background-color: #b862f2;
     width: 100%;
     height: calc(100vh - 50px);
     position: absolute;

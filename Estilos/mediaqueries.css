@@ -1,6 +1,6 @@
 @media (max-width: 575px) {
   .navbar ul {
-    background-color: #41cfae;
+    background-color: #b862f2;
     width: 100%;
     height: calc(100vh - 50px);
     position: absolute;
@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    border: 6px double red;
+    border: 6px double orange;
   }
   .hero-card {
     display: none;
@@ -39,7 +39,7 @@
   }
 
   .herotext h1 {
-    color: rgb(241, 56, 0);
+    color: #141414;
   }
   .iconos-hero2 img {
     margin-left: 20px;
