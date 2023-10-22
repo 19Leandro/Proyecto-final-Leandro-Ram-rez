@@ -6,18 +6,19 @@
   text-decoration: none;
 }
 body {
-  background-color: #7aaee1;
+  background-color: #141414;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #41cfae;
+  background-color: #9519e7;
   height: 50px;
   position: fixed;
   width: 100%;
   border-radius: 15px;
+  border: 5px double orange;
 }
 .navbar i {
   display: none;
@@ -40,6 +41,7 @@ ul a {
   font-size: 20px;
   text-transform: none;
   transition: 0.25s ease;
+  font-family: "Anton", sans-serif;
 }
 ul:hover a {
   color: red;
@@ -71,8 +73,9 @@ main {
   padding: 90px, 0px;
   margin-top: 100px;
   margin-bottom: 90px;
-  background-color: #41cfae;
+  background-color: #9519e7;
   border-radius: 30px;
+  border: 5px double orange;
 }
 
 .herotext {
@@ -91,12 +94,14 @@ main {
   font-size: 35px;
   width: 80%;
   margin-top: 10px;
+  font-family: "Anton", sans-serif;
 }
 
 .herotext p {
-  color: white;
+  color: #141414;
   font-size: 15px;
   width: 50;
+  font-weight: 900;
 }
 
 .hero-btn {
@@ -112,18 +117,10 @@ main {
   border-radius: 15px;
 }
 
-.btnhero-1 {
+.btnhero-1,
+.btnhero-2 {
   background-color: black;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btnhero-2 {
-  background-color: aliceblue;
-  color: black;
-  border: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,6 +138,17 @@ main {
   align-items: center;
   width: 40%;
 }
+.iconos-hero1 img {
+  display: flex;
+  padding: 5px;
+  width: 50px;
+  margin-right: 20px;
+}
+.iconos-hero2 img {
+  display: flex;
+  padding: 5px;
+  width: 50px;
+}
 
 /* >>>>>>>>>>>CARDS MISIONES<<<<<<<<<<<< */
 
@@ -150,7 +158,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 1200px;
   margin-bottom: 90px;
   padding: 10px;
 }
@@ -163,7 +171,7 @@ main {
   padding: 20px;
 }
 .card-title h2 {
-  color: #141414;
+  color: orange;
   font-size: 50px;
   font-family: "Anton", sans-serif;
   font-weight: 100;
@@ -189,9 +197,10 @@ main {
   width: 100%;
   text-align: center;
   gap: 5px;
-  background-color: #41cfae;
+  background-color: #9519e7;
   padding: 10px;
   border-radius: 10px;
+  border: 5px double orange;
 }
 .card-2 {
   display: flex;
@@ -200,10 +209,11 @@ main {
   width: 100%;
   text-align: center;
   gap: 5px;
-  background-color: #41cfae;
+  background-color: #9519e7;
   padding: 10px;
   border-radius: 10px;
   flex-direction: row-reverse;
+  border: 5px double orange;
 }
 .card-text,
 .card-text2,
@@ -240,7 +250,7 @@ main {
   font-size: 30px;
 }
 #cards p {
-  color: #ffffff;
+  color: #141414;
   font-size: 20px;
 }
 
@@ -256,7 +266,7 @@ main {
 }
 
 .titulo-tarjetas {
-  color: #141414;
+  color: orange;
   font-size: 20px;
   font-family: "Anton", sans-serif;
   text-align: center;
@@ -278,6 +288,7 @@ main {
   border-radius: 15px;
   font-family: sans-serif;
   background-color: #41cfae;
+  border: 5px double red;
 }
 .cardB1 {
   display: flex;
@@ -302,7 +313,7 @@ main {
   font-size: 20px;
 }
 .pie {
-  background: #6699ff;
+  background: #9519e7;
   border-radius: 0 0 15px 15px;
   padding: 10px;
   text-align: center;
@@ -324,11 +335,11 @@ main {
   margin-bottom: 80px;
   padding: 40px;
   gap: 45px;
-  border: 7px double rgb(27, 245, 158);
+  border: 7px double #9519e7;
   border-radius: 20px;
 }
 .title-contact {
-  color: #141414;
+  color: orange;
   font-family: "Anton", sans-serif;
   font-size: 30px;
   font-weight: 100;
@@ -348,7 +359,7 @@ main {
   gap: 20px;
 }
 .datos-contacto h3 {
-  color: rgb(163, 7, 7);
+  color: orange;
   font-family: Tahoma, sans-serif;
   font-size: 15px;
 }
@@ -379,23 +390,17 @@ main {
   width: 200px;
 }
 
-.principal-img {
-  width: 300px;
-  height: 350px;
-
-  align-self: flex-end;
+.contact-text span {
+  color: orange;
+  font-size: 15px;
 }
-.contact-text img {
-  width: 20px;
-  height: 20px;
-}
-.contact-text2 img {
-  width: 20px;
-  height: 20px;
+.contact-text2 span {
+  color: orange;
+  font-size: 15px;
 }
 
 .redes-icons img {
-  width: 30px;
+  width: 60px;
 }
 
 footer {
@@ -411,7 +416,7 @@ footer {
   align-items: center;
   padding: 10px;
   width: 100%;
-  background-color: #41cfae;
+  background-color: #9519e7;
 }
 .footer-info p {
   color: #141414;
