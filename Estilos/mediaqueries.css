@@ -106,16 +106,16 @@
     padding: 15px;
   }
   #contacto {
-    width: 350px;
+    width: 360px;
   }
   .principal-img {
     display: none;
   }
   .datos-contacto {
-    gap: 25px;
+    gap: 22px;
   }
   .datos-contacto p {
-    font-size: 8px;
+    font-size: 6px;
   }
   .contact-text,
   .contact-text2 {
