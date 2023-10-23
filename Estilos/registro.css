@@ -118,12 +118,15 @@ main {
   box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 100px #03e9f4;
 }
-.checkbox {
+.checkboxp {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 400px;
+  width: 250px;
   margin-bottom: 5px;
+}
+#terminos {
+  width: 20px;
 }
 @media (max-width: 575px) {
   .navbar ul {
