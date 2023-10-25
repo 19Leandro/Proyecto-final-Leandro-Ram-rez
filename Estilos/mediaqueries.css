@@ -113,6 +113,7 @@
     display: none;
   }
   .datos-contacto {
+    flex-direction: column;
     gap: 25px;
   }
   .datos-contacto p {
