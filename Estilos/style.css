@@ -17,7 +17,6 @@ body {
   height: 50px;
   position: fixed;
   width: 100%;
-  border-radius: 15px;
   border: 5px double orange;
 }
 .navbar i {
@@ -40,15 +39,8 @@ ul a {
   text-decoration: none;
   font-size: 20px;
   text-transform: none;
-  transition: 0.25s ease;
   font-family: "Anton", sans-serif;
-}
-ul:hover a {
-  color: red;
-}
-ul:hover a:hover {
-  color: white;
-  box-shadow: 0, 2px, 0, 0 blue;
+  font-weight: normal;
 }
 
 .logo-nav {
